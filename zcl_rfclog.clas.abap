@@ -88,7 +88,7 @@ public section.
       value(ET_PARA) type TT_PARA .
   methods GET_LOG_DATA
     returning
-      value(RV_LINES) type I .
+      value(RV_LINES) type I ." lines of log
   methods GET_LOG_LINES
     returning
       value(RV_LINES) type I .
